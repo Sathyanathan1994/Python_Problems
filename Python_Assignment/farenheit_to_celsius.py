@@ -1,18 +1,18 @@
-# convert temperature from fahrenheit to celsius
+# convert from fahrenheit to celsius
 
-celsius = float(input('Enter the celsius value to convert :'))
+fahrenheit = float(input('Enter the fahrenheit value to convert :'))
 
 
-class Celsius_to_Farenheit():
-    def __init__(self, celsius):
-        self.celsius = celsius
+class Farenheit_to_Celsius():
+    def __init__(self, fahrenheit):
+        self.fahrenheit = fahrenheit
 
     def convert(self):
-        farenheit = (self.celsius * 1.8) + 32
+        celsius = (self.fahrenheit - 32) * 5.0 / 9.0
 
-        return f'\nEntered celsius value {self.celsius} is converted into {farenheit} farenheit value'
+        return f'\nValue from temperature {self.fahrenheit} fahrenheit to {celsius} celsius has been converted'
 
 
-C_to_F = Celsius_to_Farenheit(celsius)
+F_to_C = Farenheit_to_Celsius(fahrenheit)
 
-print(C_to_F.convert())
+print(F_to_C.convert())
