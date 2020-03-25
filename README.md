@@ -14,3 +14,4 @@ Problems solving in python
 `9. Kilometer to miles conversion`
 `10. Prime number `
 `11. Quadratic equation in python`
+`12. Fibonacci Series in python`
