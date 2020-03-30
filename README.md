@@ -15,3 +15,5 @@ Problems solving in python
 `10. Prime number `
 `11. Quadratic equation in python`
 `12. Fibonacci Series in python`
+`13. Convert Decimal to binary, Octal and Hexadecimal`
+`14. Convert Character value to ASCII value in Python`
